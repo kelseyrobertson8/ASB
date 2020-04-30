@@ -1,0 +1,85 @@
+
+/* CSS Document */
+a {
+    color: #2F0147;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+	color: white;
+	background-color: #2F0147;
+}
+a.btn-primary{
+  transition-duration: 0.4s;
+}
+
+a.btn-primary:hover {
+  background-color: #2F0147; 
+  color: white;
+}
+	.btn-primary {
+    color: #2F0147;
+    background-color: #847996;
+    border-color: white;
+}
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+	margin: 1em 0 0.5em 0;
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #2F0147;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+	margin: 1em 0 0.5em 0;
+	color: #7A89C2;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 20px;
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p { color: #847996;
+	font-family: sans-serif;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #847996;
+}
